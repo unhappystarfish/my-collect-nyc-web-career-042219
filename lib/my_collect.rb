@@ -3,7 +3,7 @@ def my_collect(collection)
   new_array = []
   new_array2 = []
   while i < collection.length
-    new_array.push(new_array2.push(collection[i]))
+    new_array.push(collection[i])
     yield(new_array[i])
     i = i + 1
   end
