@@ -8,5 +8,6 @@ def my_collect(collection)
     new_array2.push(yield(new_array[i]))
     i = i + 1
   end
+  new_array2
 end
 
