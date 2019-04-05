@@ -7,6 +7,6 @@ def my_collect(collection)
     yield(new_array[i])
     i = i + 1
   end
-  new_array2
+  new_array
 end
 
